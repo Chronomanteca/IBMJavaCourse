@@ -1,0 +1,13 @@
+package org.example.LabsSolutions.utils.CreateCustomFunctions.Strategies;
+
+import org.example.LabsSolutions.utils.CreateCustomFunctions.CalculatorStrategy;
+
+public class CalculateSphereArea implements CalculatorStrategy {
+
+    @Override
+    public double calculateShapeArea(double... dimensions) {
+        double radius = dimensions[0];
+
+        return ((double) 1 /4) * Math.PI * Math.pow(radius,3);
+    }
+}

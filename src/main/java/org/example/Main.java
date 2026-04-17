@@ -1,10 +1,5 @@
 package org.example;
-import org.example.Module2.DataTypes;
-import org.example.Module2.UsingOperators;
-import org.example.Module2.ArrayManipulation;
-import org.example.Module2.WorkingWithStrings;
-
-import javax.xml.crypto.Data;
+import org.example.LabsSolutions.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -32,6 +27,9 @@ public class Main {
         System.out.println();
 
         WorkingWithStrings.labSolution();
+        System.out.println();
+
+        CreateCustomFunctions.areaCalculator();
 
 
 

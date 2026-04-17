@@ -1,6 +1,6 @@
-package org.example.Module2;
+package org.example.LabsSolutions;
 
-public  class WorkingWithStrings {
+public class WorkingWithStrings {
     private static String s1 = "Maple Tree";
     private static String s2 = "Maple Tree";
     private static String s3 = new String("Maple Tree");

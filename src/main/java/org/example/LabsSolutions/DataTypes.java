@@ -1,4 +1,4 @@
-package org.example.Module2;
+package org.example.LabsSolutions;
 
 public class DataTypes {
 
