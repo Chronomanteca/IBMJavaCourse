@@ -39,6 +39,7 @@ public final class GeometryAreaCalculator {
             switch (optionSelected){
                 case 0:
                     closeMenu = true;
+                    scanner.close();
                     System.out.println("Goodbye");
                     break;
                 case 1:
