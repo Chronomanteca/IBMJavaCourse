@@ -1,6 +1,6 @@
 package org.example.LabSolutions.Module1.utils.CreateCustomFunctions;
 
-import org.example.LabsSolutions.utils.CreateCustomFunctions.Strategies.*;
+import org.example.LabSolutions.Module1.utils.CreateCustomFunctions.Strategies.*;
 
 import java.util.Scanner;
 
