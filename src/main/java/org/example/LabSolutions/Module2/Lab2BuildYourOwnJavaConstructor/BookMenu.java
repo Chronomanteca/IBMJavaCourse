@@ -1,4 +1,4 @@
-package org.example.LabSolutions.Module2.BuildYourOwnJavaConstructor;
+package org.example.LabSolutions.Module2.Lab2BuildYourOwnJavaConstructor;
 
 import java.util.Scanner;
 

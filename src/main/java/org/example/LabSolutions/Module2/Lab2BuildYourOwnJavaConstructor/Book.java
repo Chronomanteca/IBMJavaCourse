@@ -1,17 +1,32 @@
-package org.example.LabSolutions.Module2.CreateYourFirstClass;
+package org.example.LabSolutions.Module2.Lab2BuildYourOwnJavaConstructor;
 
-public class Book {
+public class Book implements Cloneable{
     private String title;
     private String author;
     private float price;
 
+    @Override
+    public boolean equals(Object obj) {
+        Book comparisonBook = (Book)obj;
+        if(this.title == comparisonBook.getTitle() && this.author == comparisonBook.getAuthor() && this.price == comparisonBook.getPrice())
+            return true;
+        return false;
+    }
+
     public Book() {
+        this.title = null;
+        this.author = null;
     }
 
     public Book(String title, String author, float price) {
         this.title = title;
         this.author = author;
         this.price = price;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 
     public String getTitle() {

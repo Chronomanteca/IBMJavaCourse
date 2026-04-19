@@ -1,6 +1,6 @@
-package org.example.LabSolutions.Module2;
+package org.example.LabSolutions.Module2.Lab1CreateYourFirstClass;
 
-import org.example.LabSolutions.Module2.BuildYourOwnJavaConstructor.BuildYourOwnJavaConstructor;
+import org.example.LabSolutions.Module2.Lab2BuildYourOwnJavaConstructor.BuildYourOwnJavaConstructor;
 
 public class Main{
     public static void main(String[] args){

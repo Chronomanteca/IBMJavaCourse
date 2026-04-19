@@ -1,4 +1,4 @@
-package org.example.LabSolutions.Module2.CreateYourFirstClass;
+package org.example.LabSolutions.Module2.Lab1CreateYourFirstClass;
 
 import java.util.Scanner;
 
