@@ -1,6 +1,6 @@
-package org.example.LabsSolutions.utils.CreateCustomFunctions.Strategies;
+package org.example.LabSolutions.Module1.utils.CreateCustomFunctions.Strategies;
 
-import org.example.LabsSolutions.utils.CreateCustomFunctions.CalculatorStrategy;
+import org.example.LabSolutions.Module1.utils.CreateCustomFunctions.CalculatorStrategy;
 
 public class CalculateRectangleArea implements CalculatorStrategy {
     @Override

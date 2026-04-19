@@ -1,4 +1,4 @@
-package org.example.LabsSolutions;
+package org.example.LabSolutions.Module1;
 
 public class ArrayManipulation {
 

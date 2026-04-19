@@ -1,5 +1,5 @@
-package org.example.LabsSolutions.utils.CreateCustomFunctions.Strategies;
-import org.example.LabsSolutions.utils.CreateCustomFunctions.CalculatorStrategy;
+package org.example.LabSolutions.Module1.utils.CreateCustomFunctions.Strategies;
+import org.example.LabSolutions.Module1.utils.CreateCustomFunctions.CalculatorStrategy;
 
 public class CalculateCircleArea implements CalculatorStrategy {
     @Override

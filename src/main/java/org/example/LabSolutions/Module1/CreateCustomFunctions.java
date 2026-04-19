@@ -1,6 +1,6 @@
-package org.example.LabsSolutions;
+package org.example.LabSolutions.Module1;
 
-import org.example.LabsSolutions.utils.CreateCustomFunctions.GeometryAreaCalculator;
+import org.example.LabSolutions.Module1.utils.CreateCustomFunctions.GeometryAreaCalculator;
 
 public class CreateCustomFunctions {
 

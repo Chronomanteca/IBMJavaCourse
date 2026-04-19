@@ -1,4 +1,4 @@
-package org.example.LabsSolutions.utils.CreateCustomFunctions;
+package org.example.LabSolutions.Module1.utils.CreateCustomFunctions;
 
 import org.example.LabsSolutions.utils.CreateCustomFunctions.Strategies.*;
 
