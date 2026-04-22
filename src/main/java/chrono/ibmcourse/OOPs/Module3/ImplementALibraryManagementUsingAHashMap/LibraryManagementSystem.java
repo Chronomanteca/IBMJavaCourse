@@ -1,39 +1,13 @@
 package chrono.ibmcourse.OOPs.Module3.ImplementALibraryManagementUsingAHashMap;
 
+import chrono.ibmcourse.OOPs.Module3.ImplementALibraryManagementUsingAHashMap.view.BookView;
+
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.TreeMap;
 import java.util.Map;
 
 public class LibraryManagementSystem {
-    // Book class to represent book information
-    static class Book {
-        // Step 1: Declare variables for title, author, genre, and publication year
-        // Hint: Use appropriate data types (String for text, int for year)
-        
-        // Step 2: Create a constructor for the Book class
-        // Hint: The constructor should take parameters for all book attributes
-        
-        // Step 3: Create getter methods for each attribute
-        // Hint: Use the format: public dataType getAttribute()
-        
-        // Step 4: Create a method to display book details
-        // Hint: Return a formatted string with all book information
-    }
-    
-    // Method to validate if the title and author have valid formats
-    private static boolean isValidText(String text) {
-        // Step 5: Implement validation to ensure text isn't empty
-        // Hint: Check if the string is null, empty, or only whitespace
-        return false; // Replace this with your implementation
-    }
-    
-    // Method to validate publication year
-    private static boolean isValidYear(int year) {
-        // Step 6: Implement validation for publication year
-        // Hint: Check if the year is reasonable (e.g., between 1000 and current year)
-        return false; // Replace this with your implementation
-    }
     
     public static void main(String[] args) {
         // Step 7: Create a Scanner for user input
@@ -59,5 +33,7 @@ public class LibraryManagementSystem {
         
         // Step 14: Implement the "View sorted books" option
         // Hint: Use TreeMap to sort books by title or author
+        BookView menu = BookView.getInstance();
+        menu.menu();
     }
 }
