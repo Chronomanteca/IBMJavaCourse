@@ -1,5 +1,7 @@
 package chrono.ibmcourse.LabSolutions.Module4.Lab1ReadATextFile;
 
+import chrono.ibmcourse.LabSolutions.Module4.Lab2UseDirectoryExplorer.DirectoryController;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -63,12 +65,12 @@ public class Main {
 
 
     public static void main(String[] args){
+        File testFile = new File("hello.txt");
+        System.out.println(testFile.getAbsolutePath());
 
-        readFileWithScanner();
-        System.out.println();
-        readFileWithFileClass();
-        System.out.println();
-        readFileInALoop();
+        DirectoryController.isDirectory(PATH_PREFIX+"file.txt");
+        System.out.println(DirectoryController.isDirectory("/home/chronomanteca/Coding/Java/IBMJavaCourse/res/Module4/"+"file.txt"));
+        DirectoryController.isDirectory("/home/chronomanteca/Coding/Java/IBMJavaCourse/res/Module4/"+"Directory");
 
 
 
