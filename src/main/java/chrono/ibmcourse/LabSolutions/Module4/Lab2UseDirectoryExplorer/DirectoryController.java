@@ -34,6 +34,23 @@ public class DirectoryController {
         }
     }
 
+    public static void recursiveDirectoryListing(String filePath){
+        Path targetDirectory =  Path.of(filePath);
+       // System.out.println("target "+targetDirectory);
+        try(DirectoryStream<Path> stream = Files.newDirectoryStream(targetDirectory)){
+            for(Path file : stream){
+                System.out.println(file.getParent()+"/"+file.getFileName());
+                if(Files.isDirectory(file)){
+                    recursiveDirectoryListing(String.valueOf(file));
+                }
+            }
+        } catch (IOException e) {
+            System.out.println("Error with reading directory "+e.getMessage());
+        }
+
+
+    }
+
     public static void directoryOperations(String filePath){
         try{
             Path directoryTarget = Paths.get(filePath);
@@ -44,11 +61,7 @@ public class DirectoryController {
             String directoryOption = scanner.nextLine();
 
             if ("1".equalsIgnoreCase(directoryOption)) {
-                try(DirectoryStream<Path> stream = Files.newDirectoryStream(directoryTarget)){
-                    for(Path file : stream){
-                        System.out.println(file.getFileName());
-                    }
-                }
+                recursiveDirectoryListing(String.valueOf(directoryTarget));
 
             } else if ("2".equalsIgnoreCase(directoryOption)) {
                 System.out.println("Enter new directory name");

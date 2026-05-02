@@ -8,7 +8,8 @@ public class Main {
 
         try {
             DirectoryController.DirectoryManager();
-        } catch (IOException e) {
+            //DirectoryController.recursiveDirectoryListing("./res");
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
