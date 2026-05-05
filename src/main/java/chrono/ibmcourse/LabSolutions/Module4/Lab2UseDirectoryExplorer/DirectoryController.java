@@ -49,8 +49,6 @@ public class DirectoryController {
         } catch (IOException e) {
             System.out.println("Error with reading directory "+e.getMessage());
         }
-
-
     }
 
     public static void directoryOperations(String filePath){
