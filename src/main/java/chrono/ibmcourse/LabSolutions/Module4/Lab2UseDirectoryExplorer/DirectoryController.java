@@ -12,9 +12,11 @@ public class DirectoryController {
 
     final static String PATH_PREFIX = "./res/Module4/Directory/";
 
+
     public static int isDirectory(String path){
         //System.out.println("Enter file name or directory with path");
         try{
+
             Path filePath = Paths.get(path);
             if(!Files.exists(filePath)){
                 throw new IOException();
