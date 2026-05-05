@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args){
 
         try {
-            DirectoryController.DirectoryManager();
+            DirectoryController.recursiveDirectoryListing("..");
+            //DirectoryController.DirectoryManager();
             //DirectoryController.recursiveDirectoryListing("./res");
         } catch (Exception e) {
             throw new RuntimeException(e);
