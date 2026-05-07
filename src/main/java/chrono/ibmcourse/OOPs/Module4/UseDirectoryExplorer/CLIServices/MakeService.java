@@ -10,12 +10,12 @@ public class MakeService {
         boolean created = false;
         try{
             switch (arg){
-                case "d":
+                case "-d":
                     if(!Files.exists(Files.createDirectory(workingDirectory)))
                         throw new IOException("Directory could not be created");
                     created = true;
                     break;
-                case "f":
+                case "-f":
                     if(!Files.exists(Files.createFile(workingDirectory)))
                         throw new IOException("File could not be created");
                     created = true;
